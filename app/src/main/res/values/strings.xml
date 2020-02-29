@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AbsenQR</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="dosen">DOSEN</string>
+    <string name="mahasiswa">MAHASISWA</string>
+    <string name="kode_dosen">Kode Dosen</string>
+    <string name="nim">NIM</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="isi_sesuai_dengan_siasat">Isi Sesuai Dengan SIASAT</string>
+    <string name="mendaftar">Mendaftar</string>
+    <string name="login">Login</string>
+    <string name="kosong_tekan_umtuk_tambah_kelas">Kosong! Tekan + Umtuk Tambah Kelas</string>
+    <string name="nama_dosen">Nama Dosen</string>
+    <string name="nama_kelas">Nama Kelas</string>
+    <string name="tambah_kelas">Tambah Kelas</string>
+    <string name="ya">YA</string>
+    <string name="tidak">TIDAK</string>
+    <string name="kode_kelas">Kode Kelas</string>
+    <string name="absen_kosong_tekan_untuk_tambah_absen">Absen Kosong!!! Tekan + Untuk Tambah Absen</string>
+    <string name="todo">TODO</string>
+    <string name="daftar_hadir_kosong">Daftar Hadir Kosong!!!</string>
+    <string name="search">Search</string>
+    <string name="password_min_8_karakter">Password (Min 8 Karakter)</string>
+    <string name="lupa_password">Lupa Password?</string>
+</resources>

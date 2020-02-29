@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.rexy.absenqr">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_icon_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".Password"
+                  android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".dosen.HapusDaftarHadir"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".dosen.DaftarHadirD"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".dosen.QRGenerator"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".dosen.HapusAbsen"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity android:name=".dosen.DaftarAbsenD">
+        </activity>
+        <activity
+                android:name=".dosen.TambahKelasD"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".mahasiswa.ActivityScanner"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".mahasiswa.QRscanner"
+                android:noHistory="true"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".Hapus"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".mahasiswa.TambahKelasM"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity
+                android:name=".dosen.MainActivityDosen"
+                android:noHistory="true"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".mahasiswa.MainActivityMahasiswa"
+                android:noHistory="true"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".Mendaftar"
+                android:noHistory="true"
+                android:theme="@style/MyTheme">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="com.google.android.gms.vision.DEPENDENCIES"
+                android:value="barcode"/>
+    </application>
+
+</manifest>
